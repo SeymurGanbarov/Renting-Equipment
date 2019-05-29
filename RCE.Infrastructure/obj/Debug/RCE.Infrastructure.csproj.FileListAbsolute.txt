@@ -1,0 +1,6 @@
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\bin\Debug\RCE.Infrastructure.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\bin\Debug\RCE.Infrastructure.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.csprojAssemblyReference.cache
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.pdb

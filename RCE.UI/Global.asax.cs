@@ -1,4 +1,5 @@
 ﻿using LightInject;
+using Microsoft.Practices.ServiceLocation;
 using RCE.UI.App_Start;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -16,9 +17,9 @@ namespace RCE.UI
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             // LightInject initially configure
-            var container=new ServiceContainer();
+            var container = new ServiceContainer();
             container.RegisterControllers();
-            ApplicationConfig.BootstrapContainer(container);
+            ApplicationConfig.Bootstrap(container);
             container.EnableMvc();
         }
     }

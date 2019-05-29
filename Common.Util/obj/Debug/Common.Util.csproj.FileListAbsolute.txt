@@ -1,0 +1,9 @@
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\bin\Debug\Common.Util.dll
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\bin\Debug\Common.Util.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\bin\Debug\Newtonsoft.Json.dll
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\bin\Debug\Newtonsoft.Json.xml
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\obj\Debug\Common.Util.csprojAssemblyReference.cache
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\obj\Debug\Common.Util.csproj.CoreCompileInputs.cache
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\obj\Debug\Common.Util.csproj.CopyComplete
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\obj\Debug\Common.Util.dll
+C:\Users\seymur.q\Desktop\RentEquipment\Common.Util\obj\Debug\Common.Util.pdb

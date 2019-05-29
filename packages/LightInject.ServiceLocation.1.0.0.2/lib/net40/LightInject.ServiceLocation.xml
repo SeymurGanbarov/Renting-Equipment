@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LightInject.ServiceLocation</name>
+    </assembly>
+    <members>
+        <member name="T:LightInject.ServiceLocation.LightInjectServiceLocator">
+            <summary>
+            An <see cref="T:Microsoft.Practices.ServiceLocation.IServiceLocator"/> adapter for the LightInject service container.
+            </summary>
+        </member>
+        <member name="M:LightInject.ServiceLocation.LightInjectServiceLocator.#ctor(LightInject.IServiceContainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:LightInject.ServiceLocation.LightInjectServiceLocator"/> class.
+            </summary>
+            <param name="serviceContainer">The <see cref="T:LightInject.IServiceContainer"/> instance wrapped by this class.</param>
+        </member>
+        <member name="M:LightInject.ServiceLocation.LightInjectServiceLocator.DoGetInstance(System.Type,System.String)">
+            <summary>
+            Gets a named instance of the given <paramref name="serviceType"/>.
+            </summary>
+            <param name="serviceType">The type of the requested service.</param>
+            <param name="key">The key of the requested service.</param>
+            <returns>The requested service instance.</returns>
+        </member>
+        <member name="M:LightInject.ServiceLocation.LightInjectServiceLocator.DoGetAllInstances(System.Type)">
+            <summary>
+            Gets all instances of the given <paramref name="serviceType"/>.
+            </summary>
+            <param name="serviceType">The type of services to resolve.</param>
+            <returns>A list that contains all implementations of the <paramref name="serviceType"/>.</returns>
+        </member>
+    </members>
+</doc>
