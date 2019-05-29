@@ -1,0 +1,2 @@
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Domain\obj\Debug\RCE.Domain.csprojResolveAssemblyReference.cache
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Domain\obj\Debug\RCE.Domain.csproj.CoreCompileInputs.cache

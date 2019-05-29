@@ -4,3 +4,7 @@ C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrast
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.dll
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.pdb
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.dll
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.pdb

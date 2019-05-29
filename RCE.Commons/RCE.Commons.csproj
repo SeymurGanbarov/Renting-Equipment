@@ -40,8 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstracts\BaseEntityDAO.cs" />
     <Compile Include="Abstracts\BaseEntityDTO.cs" />
     <Compile Include="Abstracts\BaseEntity.cs" />
+    <Compile Include="Abstracts\IEntityBusinessLogic.cs" />
+    <Compile Include="Abstracts\IEntityQueryService.cs" />
     <Compile Include="Abstracts\IEntityRepository.cs" />
     <Compile Include="Extensions\BaseEntityExtension.cs" />
     <Compile Include="LogicResult.cs" />

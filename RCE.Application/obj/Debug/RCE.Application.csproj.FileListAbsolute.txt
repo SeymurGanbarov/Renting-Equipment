@@ -4,3 +4,7 @@ C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\obj\Debug\RCE.Applicatio
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\obj\Debug\RCE.Application.csproj.CoreCompileInputs.cache
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\obj\Debug\RCE.Application.dll
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\obj\Debug\RCE.Application.pdb
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Application\obj\Debug\RCE.Application.csprojResolveAssemblyReference.cache
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Application\obj\Debug\RCE.Application.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Application\obj\Debug\RCE.Application.dll
+C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Application\obj\Debug\RCE.Application.pdb

@@ -41,20 +41,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext\DataContext.cs" />
-    <Compile Include="Models\PaymentType.cs" />
-    <Compile Include="Models\Product.cs" />
-    <Compile Include="Models\ProductType.cs" />
-    <Compile Include="Models\User.cs" />
-    <Compile Include="Models\UserToProduct.cs" />
+    <Compile Include="Models\PaymentTypeDAO.cs" />
+    <Compile Include="Models\ProductDAO.cs" />
+    <Compile Include="Models\ProductTypeDAO.cs" />
+    <Compile Include="Models\UserDAO.cs" />
+    <Compile Include="Models\UserToProductDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryServices\PaymentTypeQueryService.cs" />
+    <Compile Include="QueryServices\ProductQueryService.cs" />
+    <Compile Include="QueryServices\ProductTypeQueryService.cs" />
+    <Compile Include="QueryServices\UserQueryService.cs" />
+    <Compile Include="QueryServices\UserToProductQueryService.cs" />
+    <Compile Include="Repositories\PaymentTypeRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\ProductTypeRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Repositories\UserToProductRepository.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\RCE.Application\RCE.Application.csproj">
+      <Project>{AA4C23C6-FFF7-4765-B83D-708D5993EEE1}</Project>
+      <Name>RCE.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RCE.Commons\RCE.Commons.csproj">
       <Project>{6E3392B4-6F70-42F3-9136-7C4E9DCDF4D0}</Project>
       <Name>RCE.Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RCE.Domain\RCE.Domain.csproj">
+      <Project>{5C47A008-5F9B-4145-A4A2-707A479CF23D}</Project>
+      <Name>RCE.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

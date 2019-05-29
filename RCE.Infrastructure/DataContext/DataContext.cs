@@ -1,9 +1,5 @@
-﻿using RCE.Infrastructure.Entities;
-using System;
+﻿using RCE.Infrastructure.DAOs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RCE.Infrastructure
 {
@@ -12,17 +8,17 @@ namespace RCE.Infrastructure
         static DataContext()
         {
             //initialize
-            Products = new List<Product>();
-            Users = new List<User>();
-            PaymentTypes = new List<PaymentType>();
-            ProductTypes = new List<ProductType>();
-            UserToProducts = new List<UserToProduct>();
+            Products = new List<ProductDAO>();
+            Users = new List<UserDAO>();
+            PaymentTypes = new List<PaymentTypeDAO>();
+            ProductTypes = new List<ProductTypeDAO>();
+            UserToProducts = new List<UserToProductDAO>();
         }
 
-        public static List<Product> Products { get; set; }
-        public static List<User> Users { get; set; }
-        public static List<PaymentType> PaymentTypes { get; set; }
-        public static List<ProductType> ProductTypes { get; set; }
-        public static List<UserToProduct> UserToProducts { get; set; }
+        public static List<ProductDAO> Products { get; set; }
+        public static List<UserDAO> Users { get; set; }
+        public static List<PaymentTypeDAO> PaymentTypes { get; set; }
+        public static List<ProductTypeDAO> ProductTypes { get; set; }
+        public static List<UserToProductDAO> UserToProducts { get; set; }
     }
 }
