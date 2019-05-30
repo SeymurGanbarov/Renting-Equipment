@@ -17,3 +17,17 @@ C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\bin\Debug\RCE.Commons
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\bin\Debug\RCE.Domain.pdb
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\bin\Debug\AutoMapper.xml
 C:\Users\seymur.q\Desktop\RentEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.csproj.CopyComplete
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\RCE.Infrastructure.dll
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\RCE.Infrastructure.pdb
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\AutoMapper.dll
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\RCE.Application.dll
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\RCE.Commons.dll
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\RCE.Domain.dll
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\RCE.Application.pdb
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\RCE.Commons.pdb
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\RCE.Domain.pdb
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\bin\Debug\AutoMapper.xml
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.dll
+C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Infrastructure\obj\Debug\RCE.Infrastructure.pdb
