@@ -45,11 +45,6 @@
     <Compile Include="DomainModels\ProductType.cs" />
     <Compile Include="DomainModels\User.cs" />
     <Compile Include="DomainModels\UserToProduct.cs" />
-    <Compile Include="IPaymentTypeRepository.cs" />
-    <Compile Include="IProductRepository.cs" />
-    <Compile Include="IProductTypeRepository.cs" />
-    <Compile Include="IUserRepository.cs" />
-    <Compile Include="IUserToProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

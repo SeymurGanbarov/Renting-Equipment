@@ -345,3 +345,13 @@ C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.UI\obj\Debug\RCE.UI.cs
 C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.UI\obj\Debug\ru\RCE.UI.resources.dll
 C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.UI\obj\Debug\RCE.UI.dll
 C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.UI\obj\Debug\RCE.UI.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\RCE.Commons.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\RCE.Commons.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\AutoMapper.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\RCE.Application.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\RCE.Infrastructure.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\RCE.Domain.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\RCE.Application.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\RCE.Infrastructure.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\AutoMapper.xml
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\RCE.Domain.pdb

@@ -20,16 +20,17 @@ namespace RCE.Commons
         {
             return new LogicResult { IsSucceed=false , FailureResult = failureResult.ToList(), ExceptionMessage = failureResult.FirstOrDefault()};
         }
-        public static LogicResult Failure(Exception exp)
+        public static LogicResult Failure(Exception exception)
         {
             var result = new LogicResult() { IsSucceed = false};
-            result.Exception = exp;
-            while (exp.InnerException != null)
+            result.Exception = exception;
+            result.FailureResult = new List<string>();
+
+            while (exception.InnerException != null)
             {
-                exp = exp.InnerException;
-                result.FailureResult = new List<string>();
-                result.ExceptionMessage = exp.Message;
-                result.FailureResult.Add(exp.Message);
+                result.ExceptionMessage = exception.Message;
+                result.FailureResult.Add(exception.Message);
+                exception = exception.InnerException;
             }
             return result;
         }
@@ -54,12 +55,14 @@ namespace RCE.Commons
         {
             var result = new LogicResult<T> { IsSucceed = false };
             result.Exception = exception;
+            result.FailureResult = new List<string>();
+
             while (exception.InnerException != null)
             {
-                exception = exception.InnerException;
-                result.FailureResult = new List<string>();
                 result.ExceptionMessage = exception.Message;
                 result.FailureResult.Add(exception.Message);
+                exception = exception.InnerException;
+                
             }
             return result;
         }

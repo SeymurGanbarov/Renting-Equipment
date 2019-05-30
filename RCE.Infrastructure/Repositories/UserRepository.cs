@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using AutoMapper;
+using RCE.Application.Repositories;
 using RCE.Commons.Extensions;
 using RCE.Domain;
 using RCE.Infrastructure.DAOs;
@@ -11,7 +13,7 @@ namespace RCE.Infrastructure.Repositories
         public User FindById(Guid id)
         {
             var entity = DataContext.Users.FirstOrDefault(m => m.Id == id);
-            if (entity != null) return new User { Id=entity.Id,CreatedDate=entity.CreatedDate,Email=entity.Email,Name=entity.Name,Password=entity.Password,Surname=entity.Surname };
+            if (entity != null) return Mapper.Map<User>(entity);
             else return null;
         }
 
@@ -25,7 +27,7 @@ namespace RCE.Infrastructure.Repositories
         {
             if (entity.Id == Guid.Empty)
             {
-                var dao = new UserDAO { Email = entity.Email, Name = entity.Name, Password = entity.Password, Surname = entity.Surname };
+                var dao = Mapper.Map<UserDAO>(entity);
                 dao.InitializeEntity();
                 DataContext.Users.Add(dao);
             }

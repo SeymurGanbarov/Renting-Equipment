@@ -2,20 +2,12 @@
 using RCE.Application.DTOs;
 using RCE.Application.QueryServices;
 using System.Linq;
+using AutoMapper;
 
 namespace RCE.Infrastructure.QueryServices
 {
     public class PaymentTypeQueryService : IPaymentTypeQueryService
     {
-        public IEnumerable<PaymentTypeDTO> GetAll()
-        {
-            return DataContext.PaymentTypes.Select(m => new PaymentTypeDTO
-            {
-                Id=m.Id,
-                Type=m.Type,
-                Amount=m.Amount,
-                Currency=m.Currency
-            });
-        }
+        public IEnumerable<PaymentTypeDTO> GetAll() =>  DataContext.PaymentTypes.Select(m => Mapper.Map<PaymentTypeDTO>(m));
     }
 }

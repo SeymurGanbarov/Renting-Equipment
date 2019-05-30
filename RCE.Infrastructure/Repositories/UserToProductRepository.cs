@@ -1,4 +1,6 @@
-﻿using RCE.Commons.Extensions;
+﻿using AutoMapper;
+using RCE.Application.Repositories;
+using RCE.Commons.Extensions;
 using RCE.Domain;
 using RCE.Infrastructure.DAOs;
 using System;
@@ -11,7 +13,7 @@ namespace RCE.Infrastructure.Repositories
         public UserToProduct FindById(Guid id)
         {
             var entity = DataContext.UserToProducts.FirstOrDefault(m => m.Id == id);
-            if (entity != null) return new UserToProduct { Id=entity.Id,Amount=entity.Amount,CreatedDate=entity.CreatedDate,Day=entity.Day,PaymentDetail=entity.PaymentDetail,Point=entity.Point,ProductId=entity.ProductId,UserId=entity.UserId};
+            if (entity != null) return Mapper.Map<UserToProduct>(entity);
             else return null;
         }
 
@@ -25,7 +27,7 @@ namespace RCE.Infrastructure.Repositories
         {
             if (entity.Id == Guid.Empty)
             {
-                var dao = new UserToProductDAO { Amount = entity.Amount, Day = entity.Day, PaymentDetail = entity.PaymentDetail, Point = entity.Point, ProductId = entity.ProductId, UserId = entity.UserId };
+                var dao = Mapper.Map<UserToProductDAO>(entity);
                 dao.InitializeEntity();
                 DataContext.UserToProducts.Add(dao);
             }

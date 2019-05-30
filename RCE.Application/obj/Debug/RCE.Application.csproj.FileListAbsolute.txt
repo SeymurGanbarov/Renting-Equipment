@@ -8,3 +8,10 @@ C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Application\obj\Debug\
 C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Application\obj\Debug\RCE.Application.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Application\obj\Debug\RCE.Application.dll
 C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Application\obj\Debug\RCE.Application.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\bin\Debug\AutoMapper.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\bin\Debug\RCE.Commons.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\bin\Debug\RCE.Domain.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\bin\Debug\RCE.Commons.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\bin\Debug\RCE.Domain.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\bin\Debug\AutoMapper.xml
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Application\obj\Debug\RCE.Application.csproj.CopyComplete

@@ -30,8 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.2.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,7 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogics\Implementations\BasePaymentTypeBusinessLogic.cs" />
     <Compile Include="BusinessLogics\Implementations\BaseProductBusinessLogic.cs" />
+    <Compile Include="BusinessLogics\Implementations\BaseProductTypeBusinessLogic.cs" />
+    <Compile Include="BusinessLogics\Implementations\BaseUserBusinessLogic.cs" />
+    <Compile Include="BusinessLogics\Implementations\BaseUserToProductBusinessLogic.cs" />
     <Compile Include="BusinessLogics\Interfaces\IPaymentTypeBusinessLogic.cs" />
     <Compile Include="BusinessLogics\Interfaces\IProductBusinessLogic.cs" />
     <Compile Include="BusinessLogics\Interfaces\IProductTypeBusinessLogic.cs" />
@@ -51,16 +59,30 @@
     <Compile Include="DTO\ProductTypeDTO.cs" />
     <Compile Include="DTO\UserDTO.cs" />
     <Compile Include="DTO\UserToProductDTO.cs" />
+    <Compile Include="MapperProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryServices\IPaymentTypeQueryService.cs" />
     <Compile Include="QueryServices\IProductQueryService.cs" />
     <Compile Include="QueryServices\IProductTypeQueryService.cs" />
     <Compile Include="QueryServices\IUserQueryService.cs" />
     <Compile Include="QueryServices\IUserToProductQueryService.cs" />
+    <Compile Include="Repositories\IPaymentTypeRepository.cs" />
+    <Compile Include="Repositories\IProductRepository.cs" />
+    <Compile Include="Repositories\IProductTypeRepository.cs" />
+    <Compile Include="Repositories\IUserRepository.cs" />
+    <Compile Include="Repositories\IUserToProductRepository.cs" />
+    <Compile Include="Services\Implementations\PaymentTypeService.cs" />
+    <Compile Include="Services\Implementations\ProductService.cs" />
+    <Compile Include="Services\Implementations\ProductTypeService.cs" />
+    <Compile Include="Services\Implementations\UserService.cs" />
+    <Compile Include="Services\Implementations\UserToProductService.cs" />
+    <Compile Include="Services\Interfaces\IPaymentTypeService.cs" />
+    <Compile Include="Services\Interfaces\IProductService.cs" />
+    <Compile Include="Services\Interfaces\IProductTypeService.cs" />
+    <Compile Include="Services\Interfaces\IUserService.cs" />
+    <Compile Include="Services\Interfaces\IUserToProductService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\RCE.Commons\RCE.Commons.csproj">
       <Project>{6E3392B4-6F70-42F3-9136-7C4E9DCDF4D0}</Project>
@@ -70,6 +92,9 @@
       <Project>{5C47A008-5F9B-4145-A4A2-707A479CF23D}</Project>
       <Name>RCE.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

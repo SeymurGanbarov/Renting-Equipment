@@ -47,6 +47,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.2.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="LightInject, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\LightInject.5.0.0\lib\net46\LightInject.dll</HintPath>
     </Reference>
@@ -189,6 +192,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductTypeController.cs" />
     <Compile Include="Helpers\Cache\ICacheService.cs" />
     <Compile Include="Helpers\Cache\InMemoryCache.cs" />
     <Compile Include="Helpers\Filters\DisableLogAttribute.cs" />
@@ -199,6 +203,7 @@
     </Compile>
     <Compile Include="Helpers\Localization\LanguageEnum.cs" />
     <Compile Include="Helpers\Localization\LanguageHelper.cs" />
+    <Compile Include="Models\MapperProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\UI.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -215,6 +220,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Validation.resx</DependentUpon>
     </Compile>
+    <Compile Include="Services\ProductTypeServiceFacade.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -260,9 +266,9 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Logs\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -282,9 +288,17 @@
       <Project>{2FCDD98A-892E-4FB8-B322-ECAE0077C305}</Project>
       <Name>Common.Util</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RCE.Application\RCE.Application.csproj">
+      <Project>{AA4C23C6-FFF7-4765-B83D-708D5993EEE1}</Project>
+      <Name>RCE.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RCE.Commons\RCE.Commons.csproj">
       <Project>{6E3392B4-6F70-42F3-9136-7C4E9DCDF4D0}</Project>
       <Name>RCE.Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RCE.Infrastructure\RCE.Infrastructure.csproj">
+      <Project>{F240F995-FC18-4A46-9501-E134DC6A1052}</Project>
+      <Name>RCE.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

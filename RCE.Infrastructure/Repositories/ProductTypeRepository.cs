@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using AutoMapper;
+using RCE.Application.Repositories;
 using RCE.Commons.Extensions;
 using RCE.Domain;
 using RCE.Infrastructure.DAOs;
@@ -11,7 +13,7 @@ namespace RCE.Infrastructure.Repositories
         public ProductType FindById(Guid id)
         {
             var entity = DataContext.ProductTypes.FirstOrDefault(m => m.Id == id);
-            if (entity != null) return new ProductType { Id=entity.Id,Point=entity.Point,Type=entity.Type};
+            if (entity != null) return Mapper.Map<ProductType>(entity);
             else return null;
         }
 
@@ -25,7 +27,7 @@ namespace RCE.Infrastructure.Repositories
         {
             if (entity.Id == Guid.Empty)
             {
-                var dao = new ProductTypeDAO { Point = entity.Point, Type = entity.Type };
+                var dao = Mapper.Map<ProductTypeDAO>(entity);
                 dao.InitializeEntity();
                 DataContext.ProductTypes.Add(dao);
             }

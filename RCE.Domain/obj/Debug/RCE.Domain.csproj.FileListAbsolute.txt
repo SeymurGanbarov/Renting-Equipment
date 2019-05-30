@@ -1,2 +1,11 @@
 C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Domain\obj\Debug\RCE.Domain.csprojResolveAssemblyReference.cache
 C:\Users\hp\source\repos\RentingConstructionEquipment\RCE.Domain\obj\Debug\RCE.Domain.csproj.CoreCompileInputs.cache
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\bin\Debug\RCE.Domain.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\bin\Debug\RCE.Domain.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\bin\Debug\RCE.Commons.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\bin\Debug\RCE.Commons.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\obj\Debug\RCE.Domain.csprojAssemblyReference.cache
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\obj\Debug\RCE.Domain.csproj.CoreCompileInputs.cache
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\obj\Debug\RCE.Domain.csproj.CopyComplete
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\obj\Debug\RCE.Domain.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.Domain\obj\Debug\RCE.Domain.pdb

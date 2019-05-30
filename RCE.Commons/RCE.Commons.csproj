@@ -46,6 +46,7 @@
     <Compile Include="Abstracts\IEntityBusinessLogic.cs" />
     <Compile Include="Abstracts\IEntityQueryService.cs" />
     <Compile Include="Abstracts\IEntityRepository.cs" />
+    <Compile Include="Abstracts\IEntityService.cs" />
     <Compile Include="Extensions\BaseEntityExtension.cs" />
     <Compile Include="LogicResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

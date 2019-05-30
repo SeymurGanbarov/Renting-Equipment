@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using AutoMapper;
+using RCE.Application.Repositories;
 using RCE.Commons.Extensions;
 using RCE.Domain;
 using RCE.Infrastructure.DAOs;
@@ -11,7 +13,7 @@ namespace RCE.Infrastructure.Repositories
         public PaymentType FindById(Guid id)
         {
             var entity= DataContext.PaymentTypes.FirstOrDefault(m => m.Id == id);
-            if (entity != null) return new PaymentType { Amount = entity.Amount, Currency = entity.Currency, Id = entity.Id, Type = entity.Type };
+            if (entity != null) return Mapper.Map<PaymentType>(entity);
             else return null;
         }
 
@@ -25,7 +27,7 @@ namespace RCE.Infrastructure.Repositories
         {
             if (entity.Id == Guid.Empty)
             {
-                var dao = new PaymentTypeDAO { Amount = entity.Amount, Currency = entity.Currency, Type = entity.Type };
+                var dao = Mapper.Map<PaymentTypeDAO>(entity);
                 dao.InitializeEntity();
                 DataContext.PaymentTypes.Add(dao);
             }

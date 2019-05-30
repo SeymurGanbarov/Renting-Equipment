@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using AutoMapper;
 using RCE.Application.DTOs;
 using RCE.Application.QueryServices;
+using RCE.Application.Repositories;
 using RCE.Domain;
 
 namespace RCE.Application.BusinessLogics
@@ -20,25 +19,25 @@ namespace RCE.Application.BusinessLogics
             _productRepository = productRepository;
         }
 
-        public IEnumerable<ProductDTO> GetAll()
+        public virtual IEnumerable<ProductDTO> GetAll()
         {
             return _productQueryService.GetAll();
         }
 
-        public ProductDTO GetById(Guid id)
+        public virtual ProductDTO GetById(Guid id)
         {
             var entity = _productRepository.FindById(id);
-            return new ProductDTO { Id = entity.Id, CreatedDate = entity.CreatedDate, Name = entity.Name, TypeId = entity.TypeId };
+            return Mapper.Map<ProductDTO>(entity);
         }
 
-        public void Remove(Guid id)
+        public virtual void Remove(Guid id)
         {
             _productRepository.Remove(id);
         }
 
-        public void Save(ProductDTO dto)
+        public virtual void Save(ProductDTO dto)
         {
-            var entity = new Product { Id = dto.Id, CreatedDate = dto.CreatedDate, TypeId = dto.TypeId, Name = dto.Name };
+            var entity = Mapper.Map<Product>(dto);
             _productRepository.Save(entity);
         }
     }
