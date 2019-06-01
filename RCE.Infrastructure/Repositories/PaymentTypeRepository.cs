@@ -23,18 +23,20 @@ namespace RCE.Infrastructure.Repositories
             if(entity !=null) DataContext.PaymentTypes.Remove(entity);
         }
 
-        public void Save(PaymentType entity)
+        public PaymentType Save(PaymentType entity)
         {
             if (entity.Id == Guid.Empty)
             {
                 var dao = Mapper.Map<PaymentTypeDAO>(entity);
                 dao.InitializeEntity();
                 DataContext.PaymentTypes.Add(dao);
+                return Mapper.Map<PaymentType>(dao);
             }
             else
             {
                 var oldEntity = DataContext.PaymentTypes.FirstOrDefault(m => m.Id == entity.Id);
                 oldEntity.ChangeTo(entity);
+                return entity;
             }
         }
     }

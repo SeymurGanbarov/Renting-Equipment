@@ -10,7 +10,7 @@ namespace RCE.Commons.Abstracts
     {
         IEnumerable<T> GetAll();
         T GetById(Guid id);
-        void Save(T entity);
+        T Save(T entity);
         void Remove(Guid id);
     }
 }

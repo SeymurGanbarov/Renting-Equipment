@@ -1,0 +1,23 @@
+﻿@using RCE.Application.DTOs
+@model IEnumerable<ProductDTO>
+
+<div class="products-catagories-area clearfix" style="max-width:100%!important;width:100%!important">
+    <div class="amado-pro-catagory clearfix">
+        <!-- Single Catagory -->
+        @foreach (var item in Model)
+        {
+            <div class="single-products-catagory clearfix m-1">
+                <a href="shop.html">
+                    <img src="@item.PhotoPath" style="height:200px" alt="">
+                    <!-- Hover Content -->
+                    <div class="hover-content">
+                        <div class="line"></div>
+                        <p>100 USD</p>
+                        <h4>@item.Name</h4>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>
+

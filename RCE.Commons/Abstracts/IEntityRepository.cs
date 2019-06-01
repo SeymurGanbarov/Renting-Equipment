@@ -6,6 +6,6 @@ namespace RCE.Commons.Abstracts
     {
         T FindById(Guid id);
         void Remove(Guid id);
-        void Save(T entity);
+        T Save(T entity);
     }
 }

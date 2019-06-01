@@ -54,16 +54,16 @@ namespace RCE.Application.Services
             }
         }
 
-        public LogicResult Save(PaymentTypeDTO entity)
+        public LogicResult<PaymentTypeDTO> Save(PaymentTypeDTO entity)
         {
             try
             {
-                _paymentTypeBusinessLogic.Save(entity);
-                return LogicResult.Succeed();
+                var dto= _paymentTypeBusinessLogic.Save(entity);
+                return LogicResult<PaymentTypeDTO>.Succeed(dto);
             }
             catch (Exception exception)
             {
-                return LogicResult.Failure(exception);
+                return LogicResult<PaymentTypeDTO>.Failure(exception);
             }
         }
     }

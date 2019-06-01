@@ -21,6 +21,9 @@ namespace RCE.UI
             container.RegisterControllers();
             ApplicationConfig.Bootstrap(container);
             container.EnableMvc();
+
+            //Initialize data store
+            DataStoreConfig.Initialize();
         }
     }
 }

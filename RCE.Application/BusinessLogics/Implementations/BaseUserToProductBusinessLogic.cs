@@ -29,10 +29,11 @@ namespace RCE.Application.BusinessLogics
             _userToProductRepository.Remove(id);
         }
 
-        public void Save(UserToProductDTO dto)
+        public UserToProductDTO Save(UserToProductDTO dto)
         {
             var entity = Mapper.Map<UserToProduct>(dto);
-            _userToProductRepository.Save(entity);
+            var savedItem=_userToProductRepository.Save(entity);
+            return Mapper.Map<UserToProductDTO>(savedItem);
         }
     }
 }

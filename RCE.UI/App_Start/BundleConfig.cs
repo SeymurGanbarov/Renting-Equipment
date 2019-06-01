@@ -25,7 +25,21 @@ namespace RCE.UI
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css"
+                      ));
+            
+            bundles.Add(new StyleBundle("~/bundles/css/ui").Include(
+                      "~/UI/css/core-style.css",
+                      "~/UI/style.css"
+                      ));
+
+            bundles.Add(new ScriptBundle("~/bundles/js/ui").Include(
+                     "~/UI/js/jquery/jquery-2.2.4.min.js",
+                     "~/UI/js/popper.min.js",
+                     "~/UI/js/bootstrap.min.js",
+                     "~/UI/js/plugins.js",
+                     "~/UI/js/active.js"
+                ));
         }
     }
 }

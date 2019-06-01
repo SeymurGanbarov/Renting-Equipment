@@ -29,36 +29,42 @@ namespace RCE.UI.App_Start
             ServiceLocator.SetLocatorProvider(() => serviceLocator);
         }
 
-        public static void RegisterQueryServices(ServiceContainer container)
+        private static void RegisterQueryServices(ServiceContainer container)
         {
             container.Register<IProductQueryService, ProductQueryService>(Lifetime);
             container.Register<IProductTypeQueryService, ProductTypeQueryService>(Lifetime);
+            container.Register<IUserQueryService, UserQueryService>(Lifetime);
         }
 
-        public static void RegisterBusinessLogics(ServiceContainer container)
+        private static void RegisterBusinessLogics(ServiceContainer container)
         {
             container.Register<IProductBusinessLogic, BaseProductBusinessLogic>(Lifetime);
             container.Register<IProductTypeBusinessLogic, BaseProductTypeBusinessLogic>(Lifetime);
+            container.Register<IUserBusinessLogic, BaseUserBusinessLogic>(Lifetime);
         }
 
-        public static void RegisterServices(ServiceContainer container)
+        private static void RegisterServices(ServiceContainer container)
         {
             container.Register<IProductService, ProductService>(Lifetime);
             container.Register<IProductTypeService, ProductTypeService>(Lifetime);
+            container.Register<IUserService, UserService>(Lifetime);
         }
 
-        public static void RegisterRepositories(ServiceContainer container)
+        private static void RegisterRepositories(ServiceContainer container)
         {
             container.Register<IProductRepository, ProductRepository>(Lifetime);
             container.Register<IProductTypeRepository, ProductTypeRepository>(Lifetime);
+            container.Register<IUserRepository, UserRepository>(Lifetime);
         }
 
-        public static void RegisterServiceFacades(ServiceContainer container)
+        private static void RegisterServiceFacades(ServiceContainer container)
         {
+            container.Register<ProductServiceFacade>(Lifetime);
             container.Register<ProductTypeServiceFacade>(Lifetime);
+            container.Register<UserServiceFacade>(Lifetime);
         }
 
-        public static void RegisterMappers()
+        private static void RegisterMappers()
         {
             Mapper.Initialize(config =>
             {

@@ -35,10 +35,11 @@ namespace RCE.Application.BusinessLogics
             _paymentTypeRepository.Remove(id);
         }
 
-        public virtual void Save(PaymentTypeDTO dto)
+        public virtual PaymentTypeDTO Save(PaymentTypeDTO dto)
         {
             var entity = Mapper.Map<PaymentType>(dto);
-            _paymentTypeRepository.Save(entity);
+            var savedItem= _paymentTypeRepository.Save(entity);
+            return Mapper.Map<PaymentTypeDTO>(savedItem);
         }
     }
 }

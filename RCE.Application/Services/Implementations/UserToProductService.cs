@@ -54,16 +54,16 @@ namespace RCE.Application.Services
             }
         }
 
-        public LogicResult Save(UserToProductDTO entity)
+        public LogicResult<UserToProductDTO> Save(UserToProductDTO entity)
         {
             try
             {
-                _userToProductBusinessLogic.Save(entity);
-                return LogicResult.Succeed();
+                var dto= _userToProductBusinessLogic.Save(entity);
+                return LogicResult<UserToProductDTO>.Succeed(dto);
             }
             catch (Exception exception)
             {
-                return LogicResult.Failure(exception);
+                return LogicResult<UserToProductDTO>.Failure(exception);
             }
         }
     }

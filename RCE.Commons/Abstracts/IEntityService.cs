@@ -7,7 +7,7 @@ namespace RCE.Commons.Abstracts
     {
         LogicResult<IEnumerable<T>> GetAll();
         LogicResult<T> GetById(Guid id);
-        LogicResult Save(T entity);
+        LogicResult<T> Save(T entity);
         LogicResult Remove(Guid id);
     }
 }

@@ -188,10 +188,12 @@
   <ItemGroup>
     <Compile Include="App_Start\ApplicationConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DataStoreConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ProductTypeController.cs" />
     <Compile Include="Helpers\Cache\ICacheService.cs" />
     <Compile Include="Helpers\Cache\InMemoryCache.cs" />
@@ -220,7 +222,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Validation.resx</DependentUpon>
     </Compile>
+    <Compile Include="Services\ProductServiceFacade.cs" />
     <Compile Include="Services\ProductTypeServiceFacade.cs" />
+    <Compile Include="Services\UserServiceFacade.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -251,6 +255,60 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="UI\img\product-img\bosch.jpg" />
+    <Content Include="UI\img\product-img\buldozer.jpg" />
+    <Content Include="UI\img\product-img\construction-equipment.jpg" />
+    <Content Include="UI\img\product-img\crane.jpg" />
+    <Content Include="UI\img\core-img\construction-equipment-rental.png" />
+    <Content Include="UI\img\core-img\construction-equipment.jpg" />
+    <Content Include="UI\css\animate.css" />
+    <Content Include="UI\css\bootstrap.min.css" />
+    <Content Include="UI\css\classy-nav.min.css" />
+    <Content Include="UI\css\core-style.css" />
+    <Content Include="UI\css\font-awesome.min.css" />
+    <Content Include="UI\css\jquery-ui.min.css" />
+    <Content Include="UI\css\magnific-popup.css" />
+    <Content Include="UI\css\nice-select.css" />
+    <Content Include="UI\css\owl.carousel.css" />
+    <Content Include="UI\fonts\fontawesome-webfont.svg" />
+    <Content Include="UI\img\bg-img\1.jpg" />
+    <Content Include="UI\img\bg-img\2.jpg" />
+    <Content Include="UI\img\bg-img\3.jpg" />
+    <Content Include="UI\img\bg-img\4.jpg" />
+    <Content Include="UI\img\bg-img\5.jpg" />
+    <Content Include="UI\img\bg-img\6.jpg" />
+    <Content Include="UI\img\bg-img\7.jpg" />
+    <Content Include="UI\img\bg-img\8.jpg" />
+    <Content Include="UI\img\bg-img\9.jpg" />
+    <Content Include="UI\img\bg-img\cart1.jpg" />
+    <Content Include="UI\img\bg-img\cart2.jpg" />
+    <Content Include="UI\img\bg-img\cart3.jpg" />
+    <Content Include="UI\img\core-img\cart.png" />
+    <Content Include="UI\img\core-img\favicon.ico" />
+    <Content Include="UI\img\core-img\favorites.png" />
+    <Content Include="UI\img\core-img\logo.png" />
+    <Content Include="UI\img\core-img\logo2.png" />
+    <Content Include="UI\img\core-img\paypal.png" />
+    <Content Include="UI\img\core-img\search.png" />
+    <Content Include="UI\img\product-img\pro-big-1.jpg" />
+    <Content Include="UI\img\product-img\pro-big-2.jpg" />
+    <Content Include="UI\img\product-img\pro-big-3.jpg" />
+    <Content Include="UI\img\product-img\pro-big-4.jpg" />
+    <Content Include="UI\img\product-img\product1.jpg" />
+    <Content Include="UI\img\product-img\product2.jpg" />
+    <Content Include="UI\img\product-img\product3.jpg" />
+    <Content Include="UI\img\product-img\product4.jpg" />
+    <Content Include="UI\img\product-img\product5.jpg" />
+    <Content Include="UI\img\product-img\product6.jpg" />
+    <Content Include="UI\js\active.js" />
+    <Content Include="UI\js\bootstrap.min.js" />
+    <Content Include="UI\js\classy-nav.min.js" />
+    <Content Include="UI\js\jquery\jquery-2.2.4.min.js" />
+    <Content Include="UI\js\map-active.js" />
+    <Content Include="UI\js\plugins.js" />
+    <Content Include="UI\js\popper.min.js" />
+    <Content Include="UI\img\product-img\kamaz.jpg" />
+    <Content Include="UI\img\product-img\volvo.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -261,14 +319,42 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_LayoutDefault.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Product\_ListPartial.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="UI\.sass-cache\23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84\style.scssc" />
+    <Content Include="UI\.sass-cache\23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84\_mixin.scssc" />
+    <Content Include="UI\.sass-cache\23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84\_responsive.scssc" />
+    <Content Include="UI\.sass-cache\23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84\_theme_color.scssc" />
+    <Content Include="UI\.sass-cache\23fb10bb6531a16595cc9a8cbcaeb8f40f41ec84\_variables.scssc" />
+    <Content Include="UI\.sass-cache\997c61c8c2a2a831333fab68bc2254612bdf8817\style.scssc" />
+    <Content Include="UI\.sass-cache\997c61c8c2a2a831333fab68bc2254612bdf8817\_mixin.scssc" />
+    <Content Include="UI\.sass-cache\997c61c8c2a2a831333fab68bc2254612bdf8817\_responsive.scssc" />
+    <Content Include="UI\.sass-cache\997c61c8c2a2a831333fab68bc2254612bdf8817\_theme_color.scssc" />
+    <Content Include="UI\.sass-cache\997c61c8c2a2a831333fab68bc2254612bdf8817\_variables.scssc" />
+    <Content Include="UI\css\core-style.css.map" />
+    <Content Include="UI\fonts\fontawesome-webfont.eot" />
+    <Content Include="UI\fonts\fontawesome-webfont.ttf" />
+    <Content Include="UI\fonts\fontawesome-webfont.woff" />
+    <Content Include="UI\fonts\fontawesome-webfont.woff2" />
+    <Content Include="UI\fonts\FontAwesome.otf" />
+    <Content Include="UI\fonts\helveticaneue_medium-webfont.ttf" />
+    <Content Include="UI\fonts\helveticaneue_medium-webfont.woff" />
+    <Content Include="UI\fonts\helveticaneue_medium-webfont.woff2" />
+    <Content Include="UI\fonts\helvetica_neu_bold-webfont.ttf" />
+    <Content Include="UI\fonts\helvetica_neu_bold-webfont.woff" />
+    <Content Include="UI\fonts\helvetica_neu_bold-webfont.woff2" />
+    <Content Include="UI\scss\style.scss" />
+    <Content Include="UI\scss\_mixin.scss" />
+    <Content Include="UI\scss\_responsive.scss" />
+    <Content Include="UI\scss\_theme_color.scss" />
+    <Content Include="UI\scss\_variables.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Logs\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\Home\" />
-    <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -295,6 +381,10 @@
     <ProjectReference Include="..\RCE.Commons\RCE.Commons.csproj">
       <Project>{6E3392B4-6F70-42F3-9136-7C4E9DCDF4D0}</Project>
       <Name>RCE.Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RCE.Domain\RCE.Domain.csproj">
+      <Project>{5C47A008-5F9B-4145-A4A2-707A479CF23D}</Project>
+      <Name>RCE.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\RCE.Infrastructure\RCE.Infrastructure.csproj">
       <Project>{F240F995-FC18-4A46-9501-E134DC6A1052}</Project>

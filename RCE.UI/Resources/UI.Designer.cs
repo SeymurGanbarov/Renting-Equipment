@@ -61,11 +61,20 @@ namespace RCE.UI.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to HelloWorld.
+        ///   Looks up a localized string similar to Type your keyword....
         /// </summary>
-        public static string Hello {
+        public static string Search {
             get {
-                return ResourceManager.GetString("Hello", resourceCulture);
+                return ResourceManager.GetString("Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Renting construction equipment.
+        /// </summary>
+        public static string Title {
+            get {
+                return ResourceManager.GetString("Title", resourceCulture);
             }
         }
     }

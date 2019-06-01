@@ -23,18 +23,20 @@ namespace RCE.Infrastructure.Repositories
             if (entity != null) DataContext.Products.Remove(entity);
         }
 
-        public void Save(Product entity)
+        public Product Save(Product entity)
         {
             if (entity.Id == Guid.Empty)
             {
                 var dao = Mapper.Map<ProductDAO>(entity);
                 dao.InitializeEntity();
                 DataContext.Products.Add(dao);
+                return Mapper.Map<Product>(dao);
             }
             else
             {
                 var oldEntity = DataContext.Products.FirstOrDefault(m => m.Id == entity.Id);
                 oldEntity.ChangeTo(entity);
+                return entity;
             }
 
         }

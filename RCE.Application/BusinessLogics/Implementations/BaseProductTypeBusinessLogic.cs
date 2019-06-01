@@ -35,10 +35,11 @@ namespace RCE.Application.BusinessLogics
             _productTypeRepository.Remove(id);
         }
 
-        public virtual void Save(ProductTypeDTO dto)
+        public virtual ProductTypeDTO Save(ProductTypeDTO dto)
         {
             var entity = Mapper.Map<ProductType>(dto);
-            _productTypeRepository.Save(entity);
+            var savedItem=_productTypeRepository.Save(entity);
+            return Mapper.Map<ProductTypeDTO>(savedItem);
         }
     }
 }

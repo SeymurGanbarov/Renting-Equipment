@@ -1,48 +1,87 @@
-          -----------  Info (2019-05-30 20:07:07.9294) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.2688453 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:22:24.2316) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.2831086 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:10:21.3518) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:01:10.3524250 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:24:27.1805) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.0859519 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:18:02.2496) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:12.8945187 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:27:46.4340) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.0869503 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:19:15.5114) -----------  
-        Additional Info: PRODUCTTYPE : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:01:13.1409194 } { requestUrl = http://localhost:49621/en/producttype } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:31:59.4612) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.0799570 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:19:58.6722) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:37.5025146 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:45:00.4254) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.0829692 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:20:06.6249) -----------  
-        Additional Info: PRODUCTTYPE : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:07.9386895 } { requestUrl = http://localhost:49621/en/producttype } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:48:54.7771) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:25:44.4386) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:04:00.4450720 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:48:55.5019) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:26:11.1099) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:03.8402862 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:48:56.1703) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:26:11.2428) -----------  
-        Additional Info: PRODUCTTYPE : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0359802 } { requestUrl = http://localhost:49621/en/producttype } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:52:42.8352) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.3489655 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:26:49.1811) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:02.2107606 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:53:32.2884) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.1748820 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:26:54.1062) -----------  
-        Additional Info: PRODUCTTYPE : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:04.8271886 } { requestUrl = http://localhost:49621/en/producttype } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:54:24.7401) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.1858946 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:27:17.5609) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:09.2061018 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:54:52.7758) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.1729017 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:28:19.5158) -----------  
-        Additional Info: PRODUCTTYPE : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:01:01.8620180 } { requestUrl = http://localhost:49621/en/producttype } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 15:56:57.6021) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:02:04.7204107 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:29:15.8885) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:03.1616225 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 19:25:31.7989) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.4169084 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:30:07.6552) -----------  
-        Additional Info: PRODUCTTYPE : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:51.6677500 } { requestUrl = http://localhost:49621/en/producttype } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 19:26:19.4018) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.1669273 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
                  
-          -----------  Info (2019-05-30 20:31:21.6990) -----------  
-        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:06.0500063 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+          -----------  Info (2019-05-31 19:26:25.1227) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:05.5758231 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:28:31.6489) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.8497260 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:29:00.4668) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.7253342 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:40:59.2295) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:02.1130261 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:42:06.4575) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0029974 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:44:25.5825) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.4670308 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:44:59.1194) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.6552402 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:46:57.1404) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0029983 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:47:45.0123) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.4716725 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:50:28.3869) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.3757853 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:50:51.9355) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.5167905 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:51:03.3202) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.3498077 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:52:04.5487) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.5296939 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-05-31 19:52:51.1650) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.4391700 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
                  
