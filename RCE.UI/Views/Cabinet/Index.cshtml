@@ -1,0 +1,19 @@
+﻿@using RCE.UI.Models
+@using RCE.UI.Controllers
+@using RCE.UI.Resources
+@model IEnumerable<ProductCartModel>
+@{
+    ViewBag.Title = "Index";
+}
+<div class="products-catagories-area clearfix mt-5" style="max-width:100%!important;width:100%!important">
+    <div id="products" class="amado-pro-catagory clearfix">
+        @Html.Partial("_ListPartial", Model)
+    </div>
+</div>
+@section scripts {
+    <script>
+        function downloadInvoice(element) {
+            var productId = $(element).attr("data-id");
+        }
+    </script>
+}

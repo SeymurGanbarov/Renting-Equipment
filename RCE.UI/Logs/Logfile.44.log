@@ -1,0 +1,78 @@
+          -----------  Info (2019-06-03 03:59:08.2431) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0030002 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 03:59:08.2591) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.6410367 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 03:59:11.0693) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0090005 } { requestUrl = http://localhost:49621/en/Cart/Add?productId=003cc827-62be-48c9-8357-db720bed66f8 } { requestQuery = {"productId":"003cc827-62be-48c9-8357-db720bed66f8"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 03:59:14.7265) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=&Type=Regular } { requestQuery = {"Day":"","Type":"Regular"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 03:59:14.7775) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=&Type=Regular } { requestQuery = {"Day":"","Type":"Regular"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 03:59:15.4735) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=&Type=Regular } { requestQuery = {"Day":"","Type":"Regular"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 03:59:16.0276) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=2&Type=Regular } { requestQuery = {"Day":"2","Type":"Regular"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 03:59:31.8915) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 400 } { requestExecutedTime = 00:00:00.0010001 } { requestUrl = http://localhost:49621/en/Cart/Add } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"3MdtJ_QtT1asu8QZhMLxW0sdQHntHQLpXxf3wQVcNwGZ8QJwC6cZuz9NfMLi5_NqHZED8TnIUanOkZt5Ht3ZeAHaFipTkzSrDYpCPqzOSQg1","Id":"003cc827-62be-48c9-8357-db720bed66f8","Point":"1","UserId":"55e17fe2-32ac-4018-8d2d-082ed94effbe","Name":"KamAZ truck","Type":"Regular","Day":"2","PaymentDetail.OneTime":"100","PaymentDetail.Premium":"120","PaymentDetail.Regular":"0","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 04:00:06.6185) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010001 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:00:06.6185) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0060004 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:00:25.0155) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:00:25.0155) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.7340420 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:00:28.8207) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0070004 } { requestUrl = http://localhost:49621/en/Cart/Add?productId=003cc827-62be-48c9-8357-db720bed66f8 } { requestQuery = {"productId":"003cc827-62be-48c9-8357-db720bed66f8"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:00:30.8439) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=2&Type=Regular } { requestQuery = {"Day":"2","Type":"Regular"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:00:31.9749) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 400 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/Add } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"yD7LMayHSQONkrSpXdDfAnUjnE3qrFX7upc-3TAnoJ3UUJXsKdKEIYkns0UMQsoej67dUiWbRloc_QJUSYg6dASNDbu1l8MjgYBTK7bFMdk1","Id":"003cc827-62be-48c9-8357-db720bed66f8","Point":"1","UserId":"55e17fe2-32ac-4018-8d2d-082ed94effbe","Name":"KamAZ truck","Type":"Regular","Day":"2","PaymentDetail.OneTime":"100","PaymentDetail.Premium":"120","PaymentDetail.Regular":"0","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 04:01:12.3012) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:01:12.3012) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.6090348 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:01:21.9428) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0050003 } { requestUrl = http://localhost:49621/en/Cart/Add?productId=003cc827-62be-48c9-8357-db720bed66f8 } { requestQuery = {"productId":"003cc827-62be-48c9-8357-db720bed66f8"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:02:08.0904) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=5&Type=Regular } { requestQuery = {"Day":"5","Type":"Regular"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:02:10.4526) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 400 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/Add } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"ggrfCDQ4E5dBffUFdNQ1GLMQ0kIhhF1kSj14LLw9whN11FKTFTr_kOAMrdhZqu4b-7DXJPWBECyNFINjC7ebTMR86lS41_lzRe3vYNmGOdI1","Id":"003cc827-62be-48c9-8357-db720bed66f8","Point":"1","UserId":"55e17fe2-32ac-4018-8d2d-082ed94effbe","Name":"KamAZ truck","Type":"Regular","Day":"5","PaymentDetail.OneTime":"100","PaymentDetail.Premium":"120","PaymentDetail.Regular":"120","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 04:02:16.9929) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0040003 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:02:16.9929) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0140008 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:02:54.9711) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010001 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:02:54.9711) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.6760387 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:02:58.1783) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0050003 } { requestUrl = http://localhost:49621/en/Cart/Add?productId=003cc827-62be-48c9-8357-db720bed66f8 } { requestQuery = {"productId":"003cc827-62be-48c9-8357-db720bed66f8"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:02:59.9514) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=2&Type=Regular } { requestQuery = {"Day":"2","Type":"Regular"} } { requestForm = {} } 
+                 

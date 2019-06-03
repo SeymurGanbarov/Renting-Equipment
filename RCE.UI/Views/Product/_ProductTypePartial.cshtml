@@ -1,0 +1,11 @@
+﻿@using RCE.Application.DTOs
+@using RCE.UI.Controllers
+
+@model IEnumerable<ProductTypeDTO>
+
+<div class="btn-group btn-group-justified my-3">
+    @foreach (var item in Model)
+    {
+        <button class="btn btn-warning" style="width:150px;height:50px;font-size:1em" data-id="@item.Id" onclick="getProductsByType(this)">@item.Type</button>
+    }
+</div>

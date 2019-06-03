@@ -117,10 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AddedToCart" xml:space="preserve">
+    <value>Successfully added to cart</value>
+  </data>
+  <data name="AddToCart" xml:space="preserve">
+    <value>Add to card</value>
+  </data>
+  <data name="Cabinet" xml:space="preserve">
+    <value>Cabinet</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Cart" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="DayQuantity" xml:space="preserve">
+    <value>Day quantity</value>
+  </data>
+  <data name="EarnedPoint" xml:space="preserve">
+    <value>Earned point</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="GetInvoice" xml:space="preserve">
+    <value>Get invoice</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="NewThisWeek" xml:space="preserve">
+    <value>New this week</value>
+  </data>
+  <data name="OneTime" xml:space="preserve">
+    <value>One time</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Premium" xml:space="preserve">
+    <value>Premium daily</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Product name</value>
+  </data>
+  <data name="ProductType" xml:space="preserve">
+    <value>Product type</value>
+  </data>
+  <data name="Regular" xml:space="preserve">
+    <value>Regular daily</value>
+  </data>
+  <data name="Rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="Rented" xml:space="preserve">
+    <value>Successfully rented</value>
+  </data>
   <data name="Search" xml:space="preserve">
-    <value>Type your keyword...</value>
+    <value>Search</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="SuccessfullOperation" xml:space="preserve">
+    <value>Operation completed successfully</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Renting construction equipment</value>
+  </data>
+  <data name="TotalPrice" xml:space="preserve">
+    <value>Total price</value>
+  </data>
+  <data name="TypeKeyword" xml:space="preserve">
+    <value>Type your keyword...</value>
+  </data>
+  <data name="HaveNotProduct" xml:space="preserve">
+    <value>You have not any product</value>
+  </data>
+  <data name="DownloadInvoice" xml:space="preserve">
+    <value>Download invoice</value>
   </data>
 </root>

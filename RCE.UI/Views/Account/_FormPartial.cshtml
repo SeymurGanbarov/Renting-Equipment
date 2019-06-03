@@ -1,0 +1,40 @@
+﻿@using RCE.UI.Controllers
+@using RCE.UI.Models
+@using RCE.UI.Resources
+@model UserLoginModel
+    @using (Ajax.BeginForm(nameof(AccountController.Login), new AjaxOptions
+    {
+        OnBegin = "util.loader(true)",
+        OnSuccess = "onSuccess",
+        UpdateTargetId = "refresh"
+
+    }))
+    {
+            @Html.AntiForgeryToken()
+            <div class="input-group form-group">
+                <div class="input-group-prepend">
+                    <span id="validation-message" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="input-group form-group row">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                <div class="col-10 p-0">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = UI.Email, type = "email" })
+                </div>
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-white" })
+            </div>
+            <div class="input-group form-group row">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                </div>
+                <div class="col-10 p-0">
+                    @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = UI.Password, type = "password" })
+                </div>
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-white" })
+            </div>
+            <div class="form-group row justify-content-center">
+                <button type="submit" class="btn text-dark login_btn">@UI.Login</button>
+            </div>
+    }

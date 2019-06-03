@@ -8,5 +8,9 @@ namespace RCE.UI.Models
 {
     public class MapperProfile : Profile
     {
+        public MapperProfile()
+        {
+            CreateMap<ProductInvoiceModel, ProductCartModel>().ReverseMap();
+        }
     }
 }

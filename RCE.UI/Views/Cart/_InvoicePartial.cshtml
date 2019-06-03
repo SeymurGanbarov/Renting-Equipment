@@ -1,0 +1,73 @@
+﻿@using RCE.UI.Controllers
+@using RCE.UI.Models
+@using RCE.UI.Resources
+@model ProductInvoiceModel
+<div id="formModal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" style="left:10%" role="document">
+        <div class="modal-content">
+            @using (Ajax.BeginForm(nameof(CartController.Save), "Cart", new AjaxOptions
+            {
+                OnBegin = "util.loader(true);",
+                OnSuccess = "onSuccess",
+                HttpMethod = "POST"
+            }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(m => m.Id)
+                <div class="modal-body">
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.Name, new { @class = "col-2 fs-09" })
+                        <div class="col-4">
+                            <span class="fs-09">@Model.Name</span>
+                        </div>
+                        @Html.HiddenFor(m => m.Name)
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.Type, new { @class = "col-2 fs-09" })
+                        <div class="col-4">
+                            <span class="fs-09">@Model.Type</span>
+                        </div>
+                        @Html.HiddenFor(m => m.Type)
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.Day, new { @class = "col-2 fs-09" })
+                        <div class="col-4">
+                            <span class="fs-09">@Model.Day</span>
+                        </div>
+                        @Html.HiddenFor(m => m.Day)
+                    </div>
+                    <hr />
+                    <div class="form-group row">
+                        <div class="col-3">
+                            @Html.Label(UI.OneTime, new { @class = "fs-09" }) : <span class="fs-09">@Model.PaymentDetail.OneTime €</span>
+                            @Html.HiddenFor(m => m.PaymentDetail.OneTime)
+                        </div>
+                        <div class="col-3">
+                            @Html.Label(UI.Premium, new { @class = "fs-09" }) : <span class="fs-09">@Model.PaymentDetail.Premium €</span>
+                            @Html.HiddenFor(m => m.PaymentDetail.Premium)
+                        </div>
+                        <div class="col-3">
+                            @Html.Label(UI.Regular, new { @class = "fs-09" }) : <span class="fs-09">@Model.PaymentDetail.Regular €</span>
+                            @Html.HiddenFor(m => m.PaymentDetail.Regular)
+                        </div>
+                        <div class="col-3">
+                            @Html.Label(UI.TotalPrice, new { @class = "fs-09" }) : <span class="fs-09">@Model.PaymentDetail.TotalPrice €</span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.Point, new { @class = "col-2 fs-09" })
+                        <div class="col-4">
+                            <span class="fs-09">@Model.Point</span>
+                        </div>
+                        @Html.HiddenFor(m => m.Point)
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary fs-09">@UI.Rent</button>
+                    <button type="button" class="btn btn-danger fs-09" data-dismiss="modal">@UI.Cancel</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>

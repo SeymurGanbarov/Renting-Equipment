@@ -1,8 +1,44 @@
-﻿@using RCE.Application.DTOs
-@model IEnumerable<ProductDTO>
+﻿@using RCE.UI.Models
+@using RCE.UI.Controllers
+@using RCE.UI.Resources
+@model ProductViewModel
 @{
     ViewBag.Title = "Index";
 }
+<div class="products-catagories-area clearfix" style="max-width:100%!important;width:100%!important">
+    @Html.Partial("_ProductTypePartial", Model.ProductTypes)
+    <div id="products" class="amado-pro-catagory clearfix">
+        @Html.Partial("_ListPartial", Model.Products)
+    </div>
+</div>
+<div id="formModalDiv"></div>
+@section scripts {
+    <script>
+        function getCartModal(element) {
+            var productId = $(element).attr("data-id");
+            util.showModal('#formModal', '@Url.Action(nameof(CartController.Add),"Cart")', { productId: productId });
+        }
+        function getProductsByType(element) {
+            var typeId = $(element).attr("data-id");
+            util.getHtml("#products", '@Url.Action(nameof(ProductController.GetByType))', { typeId: typeId })
+        }
 
-@Html.Partial("_ListPartial",Model)
+        function calculatePrice() {
+            var dayQuantity = $("#@nameof(ProductCartModel.Day)").val();
+            var productType = $("#@nameof(ProductCartModel.Type)").val();
+            util.getJson('@Url.Action(nameof(CartController.CalculatePrice),"Cart")', { Day: dayQuantity, Type: productType }, 'GET', function (data) {
+                $("#PaymentDetail_Premium").val(data.Premium);
+                $("#PaymentDetail_Regular").val(data.Regular);
+            })
+        }
+
+        function onSuccess(result) {
+            if (result.IsSucceed) {
+                util.loader(false);
+                $("#formModal").modal("hide");
+                $("#product-count").text(result.Count);
+            }
+        }
+    </script>
+}
 

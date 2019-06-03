@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace RCE.UI
 {
@@ -9,10 +8,13 @@ namespace RCE.UI
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery-3.4.1.min.js"
+                        ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+                        "~/Scripts/jquery.validate.min.js",
+                        "~/Scripts/jquery.validate.unobtrusive.min.js",
+                        "~/Scripts/jquery.unobtrusive-ajax.min.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
@@ -34,7 +36,6 @@ namespace RCE.UI
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/js/ui").Include(
-                     "~/UI/js/jquery/jquery-2.2.4.min.js",
                      "~/UI/js/popper.min.js",
                      "~/UI/js/bootstrap.min.js",
                      "~/UI/js/plugins.js",

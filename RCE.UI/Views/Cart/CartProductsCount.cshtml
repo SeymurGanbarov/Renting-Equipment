@@ -1,0 +1,7 @@
+﻿@using RCE.UI.Resources
+@using RCE.UI.Controllers
+@model int
+@{ 
+    Layout = null;
+}
+<a href="@Url.Action(nameof(CartController.Index),"Cart")" class="cart-nav"><img src="~/UI/img/core-img/cart.png" alt=""> @UI.Cart : <b id="product-count"> @Model</b></a>

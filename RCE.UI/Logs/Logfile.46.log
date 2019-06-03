@@ -1,0 +1,81 @@
+          -----------  Info (2019-06-03 04:05:25.0247) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 400 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/Add } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"_tVc3l1hrseMQB_JdfZxy54aiHLS_iClAW4f2rChrqXwZ0O_M94SrXoju6PPlnpYoOh1E6vL2SBy2N5rjFZqeletE7OO3hDcYaapBe3id1I1","Id":"85a9321e-097a-4157-9363-9608d9147ad1","Point":"2","UserId":"58a6de6d-636b-4d0c-9a56-40fdf4fc9034","Name":"Caterpillar bulldozer","Type":"Heavy","Day":"0","PaymentDetail.OneTime":"100","PaymentDetail.Premium":"0","PaymentDetail.Regular":"0","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 04:05:32.5851) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=&Type=Heavy } { requestQuery = {"Day":"","Type":"Heavy"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:05:33.3252) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 400 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Cart/Add } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"_tVc3l1hrseMQB_JdfZxy54aiHLS_iClAW4f2rChrqXwZ0O_M94SrXoju6PPlnpYoOh1E6vL2SBy2N5rjFZqeletE7OO3hDcYaapBe3id1I1","Id":"85a9321e-097a-4157-9363-9608d9147ad1","Point":"2","UserId":"58a6de6d-636b-4d0c-9a56-40fdf4fc9034","Name":"Caterpillar bulldozer","Type":"Heavy","Day":"","PaymentDetail.OneTime":"100","PaymentDetail.Premium":"0","PaymentDetail.Regular":"0","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 04:05:41.0666) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:05:41.0666) -----------  
+        Additional Info: CART : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0020001 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:05:44.1528) -----------  
+        Additional Info: CART : GETINVOICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0030001 } { requestUrl = http://localhost:49621/en/Cart/GetInvoice?productId=dd810bba-b1c1-49df-9ac1-1547cb60c9e8 } { requestQuery = {"productId":"dd810bba-b1c1-49df-9ac1-1547cb60c9e8"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:05:45.8779) -----------  
+        Additional Info: CART : SAVE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.1710098 } { requestUrl = http://localhost:49621/en/Cart/Save } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"T-cq6evOM8iaskiHFczykuif6k9JJ0dn7FxiROU3XT6LfnrQo5B_Kbzn1lV7jm-Ur4QORxsFAb0GD6JBnPYAP3lZVSyWjPP63vi_T2wXyIY1","Id":"dd810bba-b1c1-49df-9ac1-1547cb60c9e8","Name":"KamAZ truck","Type":"Regular","Day":"2","PaymentDetail.OneTime":"100","PaymentDetail.Premium":"120","PaymentDetail.Regular":"0","Point":"1","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 04:05:49.8711) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:05:49.8721) -----------  
+        Additional Info: CART : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010001 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:11.0803) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010001 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:11.0803) -----------  
+        Additional Info: CART : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0020002 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:14.8445) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:14.8445) -----------  
+        Additional Info: CART : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0020001 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:20.7979) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:20.7979) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0040003 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:45.8543) -----------  
+        Additional Info: PRODUCT : GETBYTYPE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0040003 } { requestUrl = http://localhost:49621/en/Product/GetByType?typeId=97c5d44e-5fdd-4bd1-bfc0-ce7d105acff8 } { requestQuery = {"typeId":"97c5d44e-5fdd-4bd1-bfc0-ce7d105acff8"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:46.4793) -----------  
+        Additional Info: PRODUCT : GETBYTYPE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010001 } { requestUrl = http://localhost:49621/en/Product/GetByType?typeId=ee1fac3f-78b2-4821-9fa1-13f30d392a3a } { requestQuery = {"typeId":"ee1fac3f-78b2-4821-9fa1-13f30d392a3a"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:06:47.1004) -----------  
+        Additional Info: PRODUCT : GETBYTYPE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Product/GetByType?typeId=2225ab04-bd20-4660-93ca-dc53495fe142 } { requestQuery = {"typeId":"2225ab04-bd20-4660-93ca-dc53495fe142"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:07:15.8200) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0020001 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:07:15.8200) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:01.5810905 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:12:24.8407) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0040003 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:12:24.8407) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.8610492 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:12:28.7849) -----------  
+        Additional Info: PRODUCT : GETBYTYPE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0040003 } { requestUrl = http://localhost:49621/en/Product/GetByType?typeId=2225ab04-bd20-4660-93ca-dc53495fe142 } { requestQuery = {"typeId":"2225ab04-bd20-4660-93ca-dc53495fe142"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:12:29.4860) -----------  
+        Additional Info: PRODUCT : GETBYTYPE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Product/GetByType?typeId=ee1fac3f-78b2-4821-9fa1-13f30d392a3a } { requestQuery = {"typeId":"ee1fac3f-78b2-4821-9fa1-13f30d392a3a"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:12:30.0710) -----------  
+        Additional Info: PRODUCT : GETBYTYPE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010000 } { requestUrl = http://localhost:49621/en/Product/GetByType?typeId=97c5d44e-5fdd-4bd1-bfc0-ce7d105acff8 } { requestQuery = {"typeId":"97c5d44e-5fdd-4bd1-bfc0-ce7d105acff8"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:12:31.2361) -----------  
+        Additional Info: PRODUCT : GETBYTYPE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Product/GetByType?typeId=ee1fac3f-78b2-4821-9fa1-13f30d392a3a } { requestQuery = {"typeId":"ee1fac3f-78b2-4821-9fa1-13f30d392a3a"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 04:12:31.6091) -----------  
+        Additional Info: PRODUCT : GETBYTYPE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010001 } { requestUrl = http://localhost:49621/en/Product/GetByType?typeId=2225ab04-bd20-4660-93ca-dc53495fe142 } { requestQuery = {"typeId":"2225ab04-bd20-4660-93ca-dc53495fe142"} } { requestForm = {} } 
+                 

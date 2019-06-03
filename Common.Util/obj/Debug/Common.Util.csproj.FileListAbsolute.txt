@@ -23,3 +23,11 @@ C:\Users\hp\Desktop\RentingConstructionEquipment\Common.Util\obj\Debug\Common.Ut
 C:\Users\hp\Desktop\RentingConstructionEquipment\Common.Util\obj\Debug\Common.Util.csproj.CoreCompileInputs.cache
 C:\Users\hp\Desktop\RentingConstructionEquipment\Common.Util\obj\Debug\Common.Util.dll
 C:\Users\hp\Desktop\RentingConstructionEquipment\Common.Util\obj\Debug\Common.Util.pdb
+C:\Users\hp\Desktop\Rent_Equipment\Common.Util\bin\Debug\Common.Util.dll
+C:\Users\hp\Desktop\Rent_Equipment\Common.Util\bin\Debug\Common.Util.pdb
+C:\Users\hp\Desktop\Rent_Equipment\Common.Util\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\Rent_Equipment\Common.Util\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hp\Desktop\Rent_Equipment\Common.Util\obj\Debug\Common.Util.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\Rent_Equipment\Common.Util\obj\Debug\Common.Util.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Rent_Equipment\Common.Util\obj\Debug\Common.Util.dll
+C:\Users\hp\Desktop\Rent_Equipment\Common.Util\obj\Debug\Common.Util.pdb
