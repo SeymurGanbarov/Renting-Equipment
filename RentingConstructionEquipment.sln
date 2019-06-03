@@ -23,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCE.Domain", "RCE.Domain\RC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REC.Core.Tests", "REC.Core.Tests\REC.Core.Tests.csproj", "{30B326C3-4788-40BE-863A-5D17E686AE11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCE.UI.Tests", "RCE.UI.Tests\RCE.UI.Tests.csproj", "{ABAF5D2F-02BD-423B-AF41-29827CCBC6F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B2E29FF-A9C5-40B7-A8B5-8A68C76C9BE3}"
+	ProjectSection(SolutionItems) = preProject
+		ReadmeText.txt = ReadmeText.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +64,10 @@ Global
 		{30B326C3-4788-40BE-863A-5D17E686AE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30B326C3-4788-40BE-863A-5D17E686AE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30B326C3-4788-40BE-863A-5D17E686AE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAF5D2F-02BD-423B-AF41-29827CCBC6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAF5D2F-02BD-423B-AF41-29827CCBC6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAF5D2F-02BD-423B-AF41-29827CCBC6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAF5D2F-02BD-423B-AF41-29827CCBC6F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +80,7 @@ Global
 		{6E3392B4-6F70-42F3-9136-7C4E9DCDF4D0} = {060BD8C7-C193-4B78-9A20-C3E5E57AEA16}
 		{5C47A008-5F9B-4145-A4A2-707A479CF23D} = {060BD8C7-C193-4B78-9A20-C3E5E57AEA16}
 		{30B326C3-4788-40BE-863A-5D17E686AE11} = {060BD8C7-C193-4B78-9A20-C3E5E57AEA16}
+		{ABAF5D2F-02BD-423B-AF41-29827CCBC6F3} = {B412BFC5-FC83-42C2-99CE-B5BA5B065DFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4BF5EEF-2639-4408-BFBF-2D2EBE3E0D57}

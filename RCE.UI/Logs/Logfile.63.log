@@ -1,0 +1,84 @@
+          -----------  Info (2019-06-03 12:58:44.8913) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 12:58:44.8913) -----------  
+        Additional Info: CART : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0069787 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 12:58:46.9695) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cabinet } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 12:58:46.9695) -----------  
+        Additional Info: CABINET : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0029976 } { requestUrl = http://localhost:49621/en/Cabinet } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 12:58:49.7527) -----------  
+        Additional Info: CABINET : DOWNLOADINVOICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0019989 } { requestUrl = http://localhost:49621/en/Cabinet/DownloadInvoice?productId=81c94694-12f9-4edc-b0a3-9788dc8cfe70 } { requestQuery = {"productId":"81c94694-12f9-4edc-b0a3-9788dc8cfe70"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:14:05.2392) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 737212.13:14:05.2382608 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:14:07.8129) -----------  
+        Additional Info: ACCOUNT : LOGIN { responseStatusCode = 200 } { requestExecutedTime = 00:00:02.4487200 } { requestUrl = http://localhost:49621/en/Account/Login } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:14:16.7801) -----------  
+        Additional Info: ACCOUNT : LOGIN { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0429732 } { requestUrl = http://localhost:49621/en/Account/Login } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"Mt39SctiE5YH_gcbLEgKddkwSWlFxsW6U09WlmvKLGaqJ0PzfpIu3RfIcdj-dTDjM7-wfZVStn8qe1HuT-93r8AvSlW4AlNlozqazO7PRcY1","Email":"john@gmail.com","Password":"123","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 13:14:16.8341) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.0119909 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:15:49.1491) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 737212.13:15:49.1481498 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:15:51.0134) -----------  
+        Additional Info: ACCOUNT : LOGIN { responseStatusCode = 200 } { requestExecutedTime = 00:00:01.7683247 } { requestUrl = http://localhost:49621/en/Account/Login } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:15:58.7971) -----------  
+        Additional Info: ACCOUNT : LOGIN { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0389733 } { requestUrl = http://localhost:49621/en/Account/Login } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"GTAdi7i7SkAleHAnF0n7FJkNK5O-RtEe64qTTjlAIBG5Ufy_fphSaVtIaKwZtuooSw0SlcR0ags91ubtmzg1DjCjzX9KAovJlkEJAdTHuc41","Email":"john@gmail.com","Password":"123","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 13:15:58.8411) -----------  
+        Additional Info: HOME : INDEX { responseStatusCode = 302 } { requestExecutedTime = 00:00:00.0119932 } { requestUrl = http://localhost:49621/ } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:00.8020) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.5577487 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:01.0269) -----------  
+        Additional Info: PRODUCT : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:02.1668111 } { requestUrl = http://localhost:49621/en/Product } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:02.5882) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.1948885 } { requestUrl = http://localhost:49621/en/Cart/Add?productId=aa20518e-18ec-4296-8e9c-5be5edcbcd52 } { requestQuery = {"productId":"aa20518e-18ec-4296-8e9c-5be5edcbcd52"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:04.6507) -----------  
+        Additional Info: CART : CALCULATEPRICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010001 } { requestUrl = http://localhost:49621/en/Cart/CalculatePrice?Day=2&Type=Regular } { requestQuery = {"Day":"2","Type":"Regular"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:05.8372) -----------  
+        Additional Info: CART : ADD { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0020143 } { requestUrl = http://localhost:49621/en/Cart/Add } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"6Aokn6ZhKG3Ld8CKlxrTWfqee8ZwrCj7GdcZqfa1uuT18v2cw5rnyWgJb3zzKXWEeaybv58qkGeSGpqQ9uGftkFK4avXvMdhLcumB-vI2j01","Id":"aa20518e-18ec-4296-8e9c-5be5edcbcd52","Point":"1","UserId":"e39f322d-b088-4df5-9bdc-085b9558961a","Name":"KamAZ truck","Type":"Regular","Day":"2","PaymentDetail.OneTime":"100","PaymentDetail.Premium":"120","PaymentDetail.Regular":"0","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 13:16:07.4321) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:07.4321) -----------  
+        Additional Info: CART : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0029993 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:08.8467) -----------  
+        Additional Info: CART : GETINVOICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0459725 } { requestUrl = http://localhost:49621/en/Cart/GetInvoice?productId=aa20518e-18ec-4296-8e9c-5be5edcbcd52 } { requestQuery = {"productId":"aa20518e-18ec-4296-8e9c-5be5edcbcd52"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:10.4531) -----------  
+        Additional Info: CART : SAVE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0569489 } { requestUrl = http://localhost:49621/en/Cart/Save } { requestQuery = {} } { requestForm = {"__RequestVerificationToken":"3eoF_upQL5jKJ_j0874KvpSQCrUQRYl0P_VIeetdTGvfSP8b-2cddnaj6HRM2tSsG3pnkv6IAfCIjdgiAUEspYB_13xKWvxrvggMFwokDX41","Id":"aa20518e-18ec-4296-8e9c-5be5edcbcd52","Name":"KamAZ truck","Type":"Regular","Day":"2","PaymentDetail.OneTime":"100","PaymentDetail.Premium":"120","PaymentDetail.Regular":"0","Point":"1","X-Requested-With":"XMLHttpRequest"} } 
+                 
+          -----------  Info (2019-06-03 13:16:11.5145) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0010129 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:11.5145) -----------  
+        Additional Info: CART : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.0030002 } { requestUrl = http://localhost:49621/en/Cart } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:13.7328) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cabinet } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:13.7328) -----------  
+        Additional Info: CABINET : INDEX { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.7071773 } { requestUrl = http://localhost:49621/en/Cabinet } { requestQuery = {} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:16.0205) -----------  
+        Additional Info: CABINET : DOWNLOADINVOICE { responseStatusCode = 200 } { requestExecutedTime = 00:00:00.2198868 } { requestUrl = http://localhost:49621/en/Cabinet/DownloadInvoice?productId=aa20518e-18ec-4296-8e9c-5be5edcbcd52 } { requestQuery = {"productId":"aa20518e-18ec-4296-8e9c-5be5edcbcd52"} } { requestForm = {} } 
+                 
+          -----------  Info (2019-06-03 13:16:30.3364) -----------  
+        Additional Info: CART : CARTPRODUCTSCOUNT { responseStatusCode = 200 } { requestExecutedTime = 00:00:00 } { requestUrl = http://localhost:49621/en/Cabinet } { requestQuery = {} } { requestForm = {} } 
+                 

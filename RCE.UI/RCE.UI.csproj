@@ -50,6 +50,9 @@
     <Reference Include="AutoMapper, Version=6.2.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.6.2.2\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="LightInject, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\LightInject.5.0.0\lib\net46\LightInject.dll</HintPath>
     </Reference>
@@ -197,7 +200,7 @@
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
-    <Compile Include="CurrentUser.cs" />
+    <Compile Include="Security\CurrentUser.cs" />
     <Compile Include="Helpers\Cache\ICacheService.cs" />
     <Compile Include="Helpers\Cache\InMemoryCache.cs" />
     <Compile Include="Helpers\Filters\AuthorizeAttribute.cs" />
@@ -232,10 +235,11 @@
     </Compile>
     <Compile Include="Services\CabinetServiceFacade.cs" />
     <Compile Include="Services\CartServiceFacade.cs" />
+    <Compile Include="Services\PaymentTypeServiceFacade.cs" />
     <Compile Include="Services\ProductServiceFacade.cs" />
     <Compile Include="Services\ProductTypeServiceFacade.cs" />
     <Compile Include="Services\UserServiceFacade.cs" />
-    <Compile Include="Store.cs" />
+    <Compile Include="App_Data\Store.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\util.js" />
@@ -383,7 +387,6 @@
     <Content Include="Views\Cabinet\_ListPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Logs\" />
     <Folder Include="Views\Base\" />
     <Folder Include="Views\Home\" />

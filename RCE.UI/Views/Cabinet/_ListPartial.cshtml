@@ -1,5 +1,6 @@
 ﻿@using RCE.UI.Models
 @using RCE.UI.Resources
+@using RCE.UI.Controllers
 @model IEnumerable<ProductCartModel>
 
 @if (Model.Count() > 0)
@@ -10,18 +11,20 @@
                 <th scope="col">@Html.DisplayNameFor(m => m.Name)</th>
                 <th scope="col">@Html.DisplayNameFor(m => m.Type)</th>
                 <th scope="col">@UI.TotalPrice</th>
+                <th scope="col">@UI.EarnedPoint</th>
                 <th scope="col"></th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>@item.Name</td>
-                    <td>@item.Type</td>
-                    <td>@item.PaymentDetail.TotalPrice €</td>
-                    <td><button class="btn btn-warning fs-09" data-id="@item.Id" onclick="downloadInvoice(this)">@UI.DownloadInvoice</button></td>
-                </tr>
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Type</td>
+                <td>@item.PaymentDetail.TotalPrice €</td>
+                <td>@item.Point</td>
+                <td><a href="@Url.Action(nameof(CabinetController.DownloadInvoice),new { productId=item.Id})" class="btn btn-warning fs-09">@UI.DownloadInvoice</a></td>
+            </tr>
             }
         </tbody>
     </table>

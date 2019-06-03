@@ -213,4 +213,10 @@
   <data name="DownloadInvoice" xml:space="preserve">
     <value>Download invoice</value>
   </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
 </root>

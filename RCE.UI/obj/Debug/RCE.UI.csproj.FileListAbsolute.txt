@@ -719,3 +719,5 @@ C:\Users\hp\Desktop\Rent_Equipment\RCE.UI\obj\Debug\RCE.UI.csproj.CoreCompileInp
 C:\Users\hp\Desktop\Rent_Equipment\RCE.UI\obj\Debug\ru\RCE.UI.resources.dll
 C:\Users\hp\Desktop\Rent_Equipment\RCE.UI\obj\Debug\RCE.UI.dll
 C:\Users\hp\Desktop\Rent_Equipment\RCE.UI\obj\Debug\RCE.UI.pdb
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\itextsharp.dll
+C:\Users\seymur.q\Desktop\RentEquipment\RCE.UI\bin\itextsharp.xml

@@ -64,6 +64,7 @@
     <Compile Include="Repositories\UserToProductRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Class_Diagram" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

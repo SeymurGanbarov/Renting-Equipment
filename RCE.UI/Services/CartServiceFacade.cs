@@ -16,18 +16,15 @@ namespace RCE.UI.Services
     public class CartServiceFacade
     {
         private readonly IProductQueryService _productQueryService;
-        private readonly IProductTypeQueryService _productTypeQueryService;
-        private readonly IPaymentTypeQueryService _paymentTypeQueryService;
+        private readonly ProductTypeServiceFacade _productTypeServiceFacade;
         private readonly IPriceCalculationService _priceCalculationService;
         private readonly IUserToProductService _userToProductService;
 
 
-        public CartServiceFacade(IProductQueryService productQueryService, IProductTypeQueryService productTypeQueryService,
-                                 IPaymentTypeQueryService paymentTypeQueryService, IPriceCalculationService priceCalculationService,
-                                 IUserToProductService userToProductService)
+        public CartServiceFacade(IProductQueryService productQueryService, ProductTypeServiceFacade productTypeServiceFacade,
+                                  IPriceCalculationService priceCalculationService, IUserToProductService userToProductService)
         {
-            _paymentTypeQueryService = paymentTypeQueryService;
-            _productTypeQueryService = productTypeQueryService;
+            _productTypeServiceFacade = productTypeServiceFacade;
             _productQueryService = productQueryService;
             _priceCalculationService = priceCalculationService;
             _userToProductService = userToProductService;
@@ -40,7 +37,7 @@ namespace RCE.UI.Services
             try
             {
                 var model = (from product in _productQueryService.GetAll()
-                             join productType in _productTypeQueryService.GetAll() on product.TypeId equals productType.Id
+                             join productType in _productTypeServiceFacade.Data on product.TypeId equals productType.Id
                              where product.Id == productId
                              select new ProductCartModel { Id=product.Id, Name = product.Name, Type = productType.Type, Point=productType.Point, UserId=CurrentUser.Id }).FirstOrDefault();
                 var priceDetail = new PriceDetail

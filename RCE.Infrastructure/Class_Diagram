@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RCE.Infrastructure.Repositories.PaymentTypeRepository" Collapsed="true">
+    <Position X="1.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\PaymentTypeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.Repositories.ProductRepository" Collapsed="true">
+    <Position X="3.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.Repositories.ProductTypeRepository" Collapsed="true">
+    <Position X="5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ProductTypeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.Repositories.UserRepository" Collapsed="true">
+    <Position X="6.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.Repositories.UserToProductRepository" Collapsed="true">
+    <Position X="8.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\UserToProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.QueryServices.PaymentTypeQueryService" Collapsed="true">
+    <Position X="1.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>QueryServices\PaymentTypeQueryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.QueryServices.ProductQueryService" Collapsed="true">
+    <Position X="3" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>QueryServices\ProductQueryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.QueryServices.ProductTypeQueryService" Collapsed="true">
+    <Position X="5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>QueryServices\ProductTypeQueryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.QueryServices.UserQueryService" Collapsed="true">
+    <Position X="6.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>QueryServices\UserQueryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Infrastructure.QueryServices.UserToProductQueryService" Collapsed="true">
+    <Position X="8.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>QueryServices\UserToProductQueryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Commons.Abstracts.BaseEntity" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Domain.PaymentType" Collapsed="true">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Domain.Product" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Domain.ProductType" Collapsed="true">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Domain.User" Collapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Domain.UserToProduct" Collapsed="true">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Commons.Abstracts.BaseEntityDAO" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Infrastructure.DAOs.PaymentTypeDAO" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\PaymentTypeDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RCE.Infrastructure.DAOs.ProductDAO" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAgAgAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RCE.Infrastructure.DAOs.ProductTypeDAO" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductTypeDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RCE.Infrastructure.DAOs.UserDAO" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQABAAAAAACAgAAAAAAAAA=</HashCode>
+      <FileName>Models\UserDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RCE.Infrastructure.DAOs.UserToProductDAO" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAIAAAgAAAAAEAAAiAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\UserToProductDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RCE.Commons.Abstracts.BaseEntityDTO" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Application.DTOs.PaymentTypeDTO" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Application.DTOs.ProductDTO" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Application.DTOs.ProductTypeDTO" Collapsed="true">
+    <Position X="4.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Application.DTOs.UserDTO" Collapsed="true">
+    <Position X="7" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Application.DTOs.UserToProductDTO" Collapsed="true">
+    <Position X="9" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Application.BusinessLogics.BasePaymentTypeBusinessLogic" Collapsed="true">
+    <Position X="0.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.BusinessLogics.BaseProductBusinessLogic" Collapsed="true">
+    <Position X="3" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.BusinessLogics.BaseProductTypeBusinessLogic" Collapsed="true">
+    <Position X="4.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.BusinessLogics.BaseUserBusinessLogic" Collapsed="true">
+    <Position X="6.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.BusinessLogics.BaseUserToProductBusinessLogic" Collapsed="true">
+    <Position X="8.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.Services.PaymentTypeService" Collapsed="true">
+    <Position X="0.5" Y="20" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.Services.ProductService" Collapsed="true">
+    <Position X="2.5" Y="20" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.Services.ProductTypeService" Collapsed="true">
+    <Position X="4.5" Y="20" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.Services.UserService" Collapsed="true">
+    <Position X="6.5" Y="20" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Application.Services.UserToProductService" Collapsed="true">
+    <Position X="8.5" Y="20" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RCE.Commons.LogicResult" Collapsed="true">
+    <Position X="4.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="RCE.Commons.LogicResult&lt;T&gt;" Collapsed="true">
+    <Position X="4.75" Y="23" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="RCE.Commons.Abstracts.IEntityRepository&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Repositories.IPaymentTypeRepository" Collapsed="true">
+    <Position X="1.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Repositories.IProductRepository" Collapsed="true">
+    <Position X="3.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Repositories.IProductTypeRepository" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Repositories.IUserRepository" Collapsed="true">
+    <Position X="6.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Repositories.IUserToProductRepository" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Commons.Abstracts.IEntityQueryService&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.QueryServices.IPaymentTypeQueryService" Collapsed="true">
+    <Position X="1.25" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.QueryServices.IProductQueryService" Collapsed="true">
+    <Position X="3" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.QueryServices.IProductTypeQueryService" Collapsed="true">
+    <Position X="5" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.QueryServices.IUserQueryService" Collapsed="true">
+    <Position X="6.75" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.QueryServices.IUserToProductQueryService" Collapsed="true">
+    <Position X="8.5" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Commons.Abstracts.IEntityBusinessLogic&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="14.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.BusinessLogics.IPaymentTypeBusinessLogic" Collapsed="true">
+    <Position X="1" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.BusinessLogics.IProductBusinessLogic" Collapsed="true">
+    <Position X="3" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.BusinessLogics.IProductTypeBusinessLogic" Collapsed="true">
+    <Position X="4.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.BusinessLogics.IUserBusinessLogic" Collapsed="true">
+    <Position X="6.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.BusinessLogics.IUserToProductBusinessLogic" Collapsed="true">
+    <Position X="8.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Commons.Abstracts.IEntityService&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="17.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Services.IPaymentTypeService" Collapsed="true">
+    <Position X="0.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Services.IProductService" Collapsed="true">
+    <Position X="2.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Services.IProductTypeService" Collapsed="true">
+    <Position X="4.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Services.IUserService" Collapsed="true">
+    <Position X="6.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="RCE.Application.Services.IUserToProductService" Collapsed="true">
+    <Position X="8.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

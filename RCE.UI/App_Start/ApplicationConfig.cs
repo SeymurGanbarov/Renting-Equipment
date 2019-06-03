@@ -9,6 +9,7 @@ using RCE.Application.Repositories;
 using RCE.Application.Services;
 using RCE.Infrastructure.QueryServices;
 using RCE.Infrastructure.Repositories;
+using RCE.UI.Helpers;
 using RCE.UI.Services;
 
 namespace RCE.UI.App_Start
@@ -58,6 +59,7 @@ namespace RCE.UI.App_Start
 
             #region App Services
             container.Register<IPriceCalculationService, PriceCalculationService>(Lifetime);
+            container.Register<ICacheService, InMemoryCache>(Lifetime);
             #endregion
         }
 
