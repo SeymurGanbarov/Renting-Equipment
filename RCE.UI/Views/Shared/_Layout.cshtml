@@ -1,4 +1,5 @@
 ﻿@using RCE.UI.Resources
+@using RCE.UI.Controllers
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,9 +12,21 @@
 
     <!-- Core Style CSS -->
     @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
     @Styles.Render("~/bundles/css/ui")
-
+    <link href="~/Content/jquery.loading.min.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @*<script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>*@
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <style >
+        .modal-backdrop {
+            z-index: 0;
+        }
+        .fs-09{
+            font-size:.9em;
+        }
+    </style>
 </head>
 <body class="p-0">
     <div class="main-content-wrapper d-flex clearfix">
@@ -27,7 +40,7 @@
                     <div class="col-12">
                         <div class="search-content">
                             <form action="#" method="get">
-                                <input type="search" name="search" id="search" placeholder="@UI.Search">
+                                <input type="search" name="search" id="search" onkeyup="" placeholder="@UI.TypeKeyword">
                                 <button><img src="~/UI/img/core-img/search.png" alt=""></button>
                             </form>
                         </div>
@@ -49,23 +62,20 @@
             <!-- Amado Nav -->
             <nav class="amado-nav">
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="product-details.html">Product</a></li>
-                    <li><a href="cart.html">Cart</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
+                    <li class="active"><a href="@Url.Action(nameof(HomeController.Index),"Home")">@UI.Home</a></li>
+                    <li class="active"><a href="@Url.Action(nameof(ProductController.Index),"Product")">@UI.Product</a></li>
+                    <li><a href="@Url.Action(nameof(CabinetController.Index),"Cabinet")">@UI.Cabinet</a></li>
+                    <li><a href="@Url.Action(nameof(AccountController.Logout),"Account")">@UI.Logout</a></li>
                 </ul>
             </nav>
             <!-- Button Group -->
-            <div class="amado-btn-group mt-30 mb-100">
-                <a href="#" class="btn amado-btn mb-15">%Discount%</a>
-                <a href="#" class="btn amado-btn active">New this week</a>
-            </div>
+            @*<div class="amado-btn-group mt-30 mb-100">
+                <a href="#" class="btn amado-btn active">@UI.NewThisWeek</a>
+            </div>*@
             <!-- Cart Menu -->
             <div class="cart-fav-search mb-100">
-                <a href="cart.html" class="cart-nav"><img src="~/UI/img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
-                <a href="#" class="fav-nav"><img src="~/UI/img/core-img/favorites.png" alt=""> Favourite</a>
-                <a href="#" class="search-nav"><img src="~/UI/img/core-img/search.png" alt=""> Search</a>
+                @Html.Action(nameof(CartController.CartProductsCount),"Cart")
+                @*<a href="#" class="search-nav"><img src="~/UI/img/core-img/search.png" alt=""> @UI.Search</a>*@
             </div>
             <!-- Social Button -->
             <div class="social-info d-flex justify-content-between">
@@ -76,9 +86,8 @@
             </div>
         </header>
         <!-- Header Area End -->
-        <div class="container body-content">
             @RenderBody()
-        </div>
+    
     </div>
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer_area clearfix">
@@ -103,11 +112,17 @@
             </div>
         </div>
     </footer>
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-
     @Scripts.Render("~/bundles/js/ui")
-
+    <script src="~/Scripts/jquery.loading.min.js"></script>
+    <script src="~/App/util.js"></script>
+    <script>
+         $(function () {
+             util.initialize("light");
+             $('.modal').on('shown.bs.modal', function () {
+                 $(this).css("z-index", parseInt($('.modal-backdrop').css('z-index')) + 1);
+             });
+        });
+    </script>
     @RenderSection("scripts", required: false)
 </body>
 </html>

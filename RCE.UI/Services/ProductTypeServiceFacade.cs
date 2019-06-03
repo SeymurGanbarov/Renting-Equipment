@@ -15,27 +15,18 @@ namespace RCE.UI.Services
             _productTypeService = productTypeService;
         }
 
-        public LogicResult<IEnumerable<ProductTypeDTO>> Data
+        public IEnumerable<ProductTypeDTO> Data
         {
             get
             {
-                return _productTypeService.GetAll();
+                var result= _productTypeService.GetAll();
+                return result.Data;
             }
         }
 
         public LogicResult<ProductTypeDTO> GetById(Guid id)
         {
             return _productTypeService.GetById(id);
-        }
-
-        public LogicResult Save(ProductTypeDTO dto)
-        {
-            return _productTypeService.Save(dto);
-        }
-
-        public LogicResult Remove(Guid id)
-        {
-            return _productTypeService.Remove(id);
         }
     }
 }

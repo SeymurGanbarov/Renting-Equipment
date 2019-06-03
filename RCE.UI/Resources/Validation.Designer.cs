@@ -59,5 +59,59 @@ namespace RCE.UI.Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This field is required.
+        /// </summary>
+        internal static string CannotBeEmpty {
+            get {
+                return ResourceManager.GetString("CannotBeEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid email or password.
+        /// </summary>
+        internal static string InvalidEmailOrPassword {
+            get {
+                return ResourceManager.GetString("InvalidEmailOrPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Day quantity cannot be empty and must be higher than zero .
+        /// </summary>
+        internal static string MustBeHigherThanZero {
+            get {
+                return ResourceManager.GetString("MustBeHigherThanZero", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The number of characters for this field is incorrect.
+        /// </summary>
+        internal static string MustBeProperLength {
+            get {
+                return ResourceManager.GetString("MustBeProperLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This product already exist in your cart.
+        /// </summary>
+        internal static string PrductExistInCart {
+            get {
+                return ResourceManager.GetString("PrductExistInCart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Something went wrong.
+        /// </summary>
+        internal static string UnSuccessfullOperation {
+            get {
+                return ResourceManager.GetString("UnSuccessfullOperation", resourceCulture);
+            }
+        }
     }
 }

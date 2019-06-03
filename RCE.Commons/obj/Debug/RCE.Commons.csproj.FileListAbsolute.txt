@@ -16,3 +16,9 @@ C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Commons\obj\Debug\RCE.Commo
 C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Commons\obj\Debug\RCE.Commons.csproj.CoreCompileInputs.cache
 C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Commons\obj\Debug\RCE.Commons.dll
 C:\Users\hp\Desktop\RentingConstructionEquipment\RCE.Commons\obj\Debug\RCE.Commons.pdb
+C:\Users\hp\Desktop\Rent_Equipment\RCE.Commons\bin\Debug\RCE.Commons.dll
+C:\Users\hp\Desktop\Rent_Equipment\RCE.Commons\bin\Debug\RCE.Commons.pdb
+C:\Users\hp\Desktop\Rent_Equipment\RCE.Commons\obj\Debug\RCE.Commons.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\Rent_Equipment\RCE.Commons\obj\Debug\RCE.Commons.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Rent_Equipment\RCE.Commons\obj\Debug\RCE.Commons.dll
+C:\Users\hp\Desktop\Rent_Equipment\RCE.Commons\obj\Debug\RCE.Commons.pdb

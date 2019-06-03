@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace RCE.UI.Controllers
 {
+    [RCE.UI.Helpers.Authorize]
     public class HomeController : BaseController
     {
         public ActionResult Index()

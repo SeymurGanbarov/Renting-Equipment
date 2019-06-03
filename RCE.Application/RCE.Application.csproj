@@ -44,6 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App\HeavyPriceCalculation.cs" />
+    <Compile Include="App\IPriceCalculation.cs" />
+    <Compile Include="App\IPriceCalculationService.cs" />
+    <Compile Include="App\Models\PaymentDetail.cs" />
+    <Compile Include="App\Models\PaymentType.cs" />
+    <Compile Include="App\Models\PaymentTypeDayOver.cs" />
+    <Compile Include="App\Models\PriceDetail.cs" />
+    <Compile Include="App\Models\ProductType.cs" />
+    <Compile Include="App\PriceCalculationService.cs" />
+    <Compile Include="App\RegularPriceCalculation.cs" />
+    <Compile Include="App\SpecializedPriceCalculation.cs" />
     <Compile Include="BusinessLogics\Implementations\BasePaymentTypeBusinessLogic.cs" />
     <Compile Include="BusinessLogics\Implementations\BaseProductBusinessLogic.cs" />
     <Compile Include="BusinessLogics\Implementations\BaseProductTypeBusinessLogic.cs" />

@@ -13,6 +13,12 @@ namespace RCE.Application.BusinessLogics
         private readonly IUserToProductQueryService _userToProductQueryService;
         private readonly IUserToProductRepository _userToProductRepository;
 
+        public BaseUserToProductBusinessLogic(IUserToProductQueryService userToProductQueryService, IUserToProductRepository userToProductRepository)
+        {
+            _userToProductRepository = userToProductRepository;
+            _userToProductQueryService = userToProductQueryService;
+        }
+
         public virtual IEnumerable<UserToProductDTO> GetAll()
         {
             return _userToProductQueryService.GetAll();

@@ -191,12 +191,16 @@
     <Compile Include="App_Start\DataStoreConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\CabinetController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
-    <Compile Include="Controllers\ProductTypeController.cs" />
+    <Compile Include="CurrentUser.cs" />
     <Compile Include="Helpers\Cache\ICacheService.cs" />
     <Compile Include="Helpers\Cache\InMemoryCache.cs" />
+    <Compile Include="Helpers\Filters\AuthorizeAttribute.cs" />
     <Compile Include="Helpers\Filters\DisableLogAttribute.cs" />
     <Compile Include="Helpers\Filters\LocalizationAttribute.cs" />
     <Compile Include="Helpers\Filters\LogAttribute.cs" />
@@ -205,6 +209,10 @@
     </Compile>
     <Compile Include="Helpers\Localization\LanguageEnum.cs" />
     <Compile Include="Helpers\Localization\LanguageHelper.cs" />
+    <Compile Include="Models\Common\ProductCartModel.cs" />
+    <Compile Include="Models\Common\ProductInvoiceModel.cs" />
+    <Compile Include="Models\Common\ProductViewModel.cs" />
+    <Compile Include="Models\Common\UserLoginModel.cs" />
     <Compile Include="Models\MapperProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\UI.Designer.cs">
@@ -222,13 +230,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Validation.resx</DependentUpon>
     </Compile>
+    <Compile Include="Services\CabinetServiceFacade.cs" />
+    <Compile Include="Services\CartServiceFacade.cs" />
     <Compile Include="Services\ProductServiceFacade.cs" />
     <Compile Include="Services\ProductTypeServiceFacade.cs" />
     <Compile Include="Services\UserServiceFacade.cs" />
+    <Compile Include="Store.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\util.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\jquery.loading.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -244,10 +257,18 @@
     <None Include="NLog.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.loading.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -255,6 +276,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="UI\css\login.css" />
     <Content Include="UI\img\product-img\bosch.jpg" />
     <Content Include="UI\img\product-img\buldozer.jpg" />
     <Content Include="UI\img\product-img\construction-equipment.jpg" />
@@ -349,6 +371,16 @@
     <Content Include="UI\scss\_responsive.scss" />
     <Content Include="UI\scss\_theme_color.scss" />
     <Content Include="UI\scss\_variables.scss" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\_FormPartial.cshtml" />
+    <Content Include="Views\Product\_ProductTypePartial.cshtml" />
+    <Content Include="Views\Cart\_FormPartial.cshtml" />
+    <Content Include="Views\Cart\CartProductsCount.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\_ListPartial.cshtml" />
+    <Content Include="Views\Cart\_InvoicePartial.cshtml" />
+    <Content Include="Views\Cabinet\Index.cshtml" />
+    <Content Include="Views\Cabinet\_ListPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -367,7 +399,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common.Util\Common.Util.csproj">
